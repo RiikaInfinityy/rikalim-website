@@ -8,17 +8,15 @@
   --link-hover-color: rosybrown;
 }
 
-.head_block {
-  background-image: url(/images/profile/bg.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-color: var(--secondary-color);
-  background-size: 100% auto;
-}
-
-.head_block_text {
+.hero {
   text-align: center;
-  margin-top: 275px;
+  background-image: url(/images/profile/bg.jpg);
+  background-color: var(--secondary-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 350px;
 }
 
 body {
@@ -37,22 +35,18 @@ h3 {
   font-size: 72px;
   font-weight: bold;
   letter-spacing: 0.1em;
-  margin-bottom: 25px;
 }
 
 .h2-homepage {
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 25px;
 }
 
 .p-homepage {
   font-family: var(--sub-font-family);
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
-  margin-bottom: 0px;
-  max-width: 770px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -70,7 +64,7 @@ h3 {
   padding: 18px 40px;
   border-radius: 50px;
   margin-top: 40px;
-  margin-bottom: 301px;
+  margin-bottom: 250px;
   letter-spacing: 0.1em;
 }
 
