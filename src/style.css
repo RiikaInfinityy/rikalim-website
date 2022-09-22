@@ -8,7 +8,7 @@
   --link-hover-color: rosybrown;
 }
 
-.hero {
+.hero-main {
   text-align: center;
   background-image: url(/images/profile/bg.jpg);
   background-color: var(--secondary-color);
@@ -17,6 +17,19 @@
   background-size: cover;
   position: relative;
   padding-top: 350px;
+}
+
+.hero-sub {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 100px auto;
+}
+
+.hero-sub i {
+  font-size: 40px;
 }
 
 body {
@@ -31,18 +44,18 @@ h3 {
   text-align: center;
 }
 
-.h1-homepage {
+.hero-main h1 {
   font-size: 72px;
   font-weight: bold;
   letter-spacing: 0.1em;
 }
 
-.h2-homepage {
+.hero-main h2 {
   font-weight: bold;
   font-size: 24px;
 }
 
-.p-homepage {
+.hero-main h3 {
   font-family: var(--sub-font-family);
   font-size: 18px;
   font-weight: 400;
@@ -50,7 +63,7 @@ h3 {
   margin: auto;
 }
 
-.h3-homepage {
+.home-content-heading {
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 0.1em;
@@ -76,6 +89,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 50px;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .navigate-btn-back {
@@ -87,8 +101,16 @@ h3 {
   letter-spacing: 0.1em;
 }
 
+.navbar-toggler {
+  color: white;
+}
+
 .navbar {
   padding: 0px;
+}
+
+.navbar-toggler {
+  margin-right: 10px;
 }
 
 .nav-con-main {
@@ -112,6 +134,7 @@ h3 {
 
 .navigator-text {
   text-align: right !important;
+  text-transform: uppercase;
   flex-grow: 0;
   margin-right: 140px;
 }
@@ -126,7 +149,7 @@ h3 {
 
 .bottom_nav {
   background-color: var(--extra-color);
-  padding: 40px;
+  padding: 25px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -165,6 +188,7 @@ h3 {
 .card-title {
   font-weight: bold;
   font-size: 24px;
+  text-transform: uppercase;
 }
 
 .card-text {
@@ -174,4 +198,68 @@ h3 {
 
 .card-body {
   padding-bottom: 0px;
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #f65282;
+}
+
+.about-paragraph {
+  font-weight: 400;
+  line-height: 25px;
+  font-family: var(--sub-font-family);
+  margin: 20px auto;
+  margin-left: 20px;
+}
+
+.about-container {
+  background-color: var(--extra-color);
+}
+
+@media (max-width: 400px) {
+  .hero-main h1 {
+    font-size: 55px;
+  }
+
+  .hero-main h2 {
+    font-size: 20px;
+  }
+
+  .hero-main h3 {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  .navigator-icon {
+    margin-left: 0px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navigator-icon {
+    margin-left: 20px;
+  }
+
+  .hero-main h3 {
+    width: 80%;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
 }
