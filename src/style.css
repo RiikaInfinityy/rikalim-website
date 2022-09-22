@@ -5,7 +5,7 @@
   --secondary-color: #202020;
   --extra-color: #262328;
   --default-text-color: white;
-  --link-hover-color: rosybrown;
+  --link-hover-color: #533e75;
 }
 
 .hero-main {
@@ -111,6 +111,13 @@ h3 {
   letter-spacing: 0.1em;
 }
 
+.button_main:hover,
+.navigate-btn:hover,
+.navigate-btn-back:hover {
+  background-color: var(--link-hover-color);
+  color: var(--default-text-color);
+}
+
 .navbar-toggler {
   color: white;
 }
@@ -154,7 +161,7 @@ h3 {
 }
 
 .nav-link:hover {
-  color: var(--link-hover-color);
+  background-color: var(--link-hover-color);
 }
 
 .bottom_nav {
@@ -221,8 +228,8 @@ h3 {
   font-weight: 400;
   line-height: 25px;
   font-family: var(--sub-font-family);
-  margin: 20px auto;
-  margin-left: 20px;
+  margin: 20px 20px auto 20px;
+  padding: auto;
 }
 
 .about-container {
@@ -235,6 +242,12 @@ h3 {
   text-align: center;
   margin: 30px auto;
   letter-spacing: 0.1em;
+}
+
+.aboutimg-thumbnail,
+.main-img-thumbnail {
+  width: 80%;
+  height: 80%;
 }
 
 @media (max-width: 400px) {
@@ -260,6 +273,13 @@ h3 {
   }
 
   .card-text {
+    font-size: 13px;
+  }
+
+  .about-title {
+    font-size: 15px;
+  }
+  .about-paragraph {
     font-size: 13px;
   }
 }
