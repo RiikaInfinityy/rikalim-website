@@ -282,6 +282,18 @@ h3 {
     width: 80%;
   }
 
+  .hero-sub h1 {
+    font-size: 18px;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .hero-sub h2 {
+    font-size: 11px;
+    width: 95%;
+    margin: 0px auto;
+  }
+
   .navigator-icon {
     margin-left: 0px;
   }
@@ -317,5 +329,13 @@ h3 {
 
   .card-text {
     font-size: 13px;
+  }
+
+  .hero-sub h1 {
+    font-size: 30px;
+  }
+
+  .hero-sub h2 {
+    font-size: 15px;
   }
 }
